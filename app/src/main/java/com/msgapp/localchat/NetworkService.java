@@ -71,7 +71,7 @@ public class NetworkService {
                     try {
                         GroupAnnouncement announcement = gson.fromJson(data, GroupAnnouncement.class);
                         if ("GROUP_ANNOUNCEMENT".equals(announcement.type)) {
-                            Group group = new Group(
+                            Group discoveredGroup = new Group(
                                 announcement.groupName,
                                 packet.getAddress().getHostAddress(),
                                 announcement.memberCount
@@ -80,15 +80,15 @@ public class NetworkService {
                             // Update or add group
                             boolean found = false;
                             for (int i = 0; i < discoveredGroups.size(); i++) {
-                                if (discoveredGroups.get(i).getName().equals(group.getName()) &&
-                                    discoveredGroups.get(i).getHostAddress().equals(group.getHostAddress())) {
-                                    discoveredGroups.set(i, group);
+                                if (discoveredGroups.get(i).getName().equals(discoveredGroup.getName()) &&
+                                    discoveredGroups.get(i).getHostAddress().equals(discoveredGroup.getHostAddress())) {
+                                    discoveredGroups.set(i, discoveredGroup);
                                     found = true;
                                     break;
                                 }
                             }
                             if (!found) {
-                                discoveredGroups.add(group);
+                                discoveredGroups.add(discoveredGroup);
                             }
                             
                             listener.onGroupsFound(new ArrayList<>(discoveredGroups));

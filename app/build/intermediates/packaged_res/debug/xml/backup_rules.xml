@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <full-backup-content>
-    <!-- Exclude specific shared preferences that contain GCM registration Id -->
-    <!-- <exclude domain="sharedpref" path="device.xml"/> -->
+    <!-- TODO: Use <include> and <exclude> to control what is backed up.
+    <include .../>
+    <exclude .../>
+    -->
 </full-backup-content>
