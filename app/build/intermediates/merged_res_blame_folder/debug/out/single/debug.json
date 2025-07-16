@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.msgapp.localchat.app-merged_res-33:/layout_item_message_mine.xml.flat",
+        "source": "com.msgapp.localchat.app-main-35:/layout/item_message_mine.xml"
+    },
+    {
+        "merged": "com.msgapp.localchat.app-merged_res-33:/layout_activity_group.xml.flat",
+        "source": "com.msgapp.localchat.app-main-35:/layout/activity_group.xml"
+    },
+    {
+        "merged": "com.msgapp.localchat.app-merged_res-33:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.msgapp.localchat.app-main-35:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.msgapp.localchat.app-merged_res-33:/layout_item_message_other.xml.flat",
+        "source": "com.msgapp.localchat.app-main-35:/layout/item_message_other.xml"
+    },
+    {
+        "merged": "com.msgapp.localchat.app-merged_res-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.msgapp.localchat.app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.msgapp.localchat.app-merged_res-33:/layout_activity_chat.xml.flat",
+        "source": "com.msgapp.localchat.app-main-35:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.msgapp.localchat.app-merged_res-33:/layout_item_group.xml.flat",
+        "source": "com.msgapp.localchat.app-main-35:/layout/item_group.xml"
+    },
+    {
+        "merged": "com.msgapp.localchat.app-merged_res-33:/mipmap_ic_launcher.xml.flat",
+        "source": "com.msgapp.localchat.app-main-35:/mipmap/ic_launcher.xml"
+    },
+    {
+        "merged": "com.msgapp.localchat.app-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "com.msgapp.localchat.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.msgapp.localchat.app-merged_res-33:/xml_backup_rules.xml.flat",
+        "source": "com.msgapp.localchat.app-main-35:/xml/backup_rules.xml"
+    }
+]
